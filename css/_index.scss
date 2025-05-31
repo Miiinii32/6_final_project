@@ -471,9 +471,15 @@ section {
       li {
         flex-direction: column;
         align-items: start;
+        .word,
         .mailCoporate {
           flex-direction: column;
           align-items: start;
+          font-size: 24px;
+          .mail,
+          .coporate {
+            font-size: 24px;
+          }
         }
         .coporate {
           margin-top: 8px;
